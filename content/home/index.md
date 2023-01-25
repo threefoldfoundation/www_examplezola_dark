@@ -21,7 +21,9 @@ weight: 1
 
 # Title
 
-My trunk is an idea that a good friend and I had a long time ago. This was at the start of the whole .com boom where everyone that had an idea got millions to execute on it. Many of these initial ideas failed, some of them became the monopolies of today, Google, Facebook and Amazon. We never launched the mytrunk.com domain and this site is an ode to that lost opportunity in which I organize my daily online life.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident excepturi commodi ducimus, neque molestias dolorem ipsum officia nisi iusto possimus?
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iste sed fugiat qui, eligendi quidem aperiam ducimus veniam ab. Minima quasi esse enim commodi odit.
 
 <button>[Like!](/)</button>
 
