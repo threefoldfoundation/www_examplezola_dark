@@ -1,22 +1,22 @@
-name: freeflow.life
+name: examplezoladark.tf
 on: 
   push:
-    branch: [ development ]
+    branch: [ master ]
 
 jobs:
   job_one:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: pushing latest change on www2.freeflow.life
+    - name: pushing latest change on www2.examplezoladark.tf
       uses: appleboy/ssh-action@master
       with:
-        host: www2.freeflow.life
+        host: www2.examplezoladark.tf
         username: root
         key: ${{ secrets.TF_SECRET }}
         port: 22
         script: |
-          cd /opt/www_freeflow_life
+          cd /opt/www_examplezoladark_tf
           git log -1
           git pull
           bash build.sh

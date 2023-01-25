@@ -1,8 +1,8 @@
 # The URL the site will be built for
-base_url = "https://www2.freeflow.life"
+base_url = "https://examplezoladark.tf"
 # Change this to your own URL! Please note this variable **must** be uncommented.
 
-title = "ThreeFold"
+title = "examplezola dark"
 description="Our global digital backbone"
 
 # When set to "true", a feed is automatically generated.
@@ -67,5 +67,5 @@ paginate_by = 2
 paginate_path = "blog-posts"
 
 [extra]
-header_class = ""
-footer_class = ""
+header_class = "customize"
+footer_class = "customize"

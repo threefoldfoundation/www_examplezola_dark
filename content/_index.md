@@ -1,9 +1,12 @@
 ---
-title: "OurWorld"
-description: "A better world is where we all have access to endless information and opportunities."
-date: 2018-09-14T21:00:00-05:00
-updated: 2021-02-20T14:40:00-06:00
+title: "examplezola_dark"
+description: ""
+date: 2018-09-14
+updated: 2021-02-20
 draft: false
+sort_by: weight
+weight: 1
 extra:
-  author:
+    logo_path: images/logo_placeholder.jpg
+
 ---

@@ -1,52 +1,163 @@
 ---
-title: "OurWorld"
-description: "A better world is where we all have access to endless information and opportunities."
-date: 2018-09-14T21:00:00-05:00
-updated: 2021-02-20T14:40:00-06:00
+title: "Home"
+description: ""
+date: 2018-09-14
+updated: 2021-02-20
 draft: false
-template: page.html
-extra:
-  author:
+weight: 1
 ---
 
-{% row(style="moderate") %}
+<!-- section 1 -->
 
-# ThreeFold SSG Template
+<div class="container mx-auto">
 
-##### A template for easily making minimal sites from markdown documents
-
-{% end %}
-
-{{space()}}
-
-## How to create pages using this template
-
-- Pages of the website are markdown files in the content directory.
-- These pages are then rendered using HTML templates in /templates.
-- To get started, simply create a markdown file and start typing, adding images, links etc.
-- To style your pages, check shortcodes, which are short snippets of code.
-- Shortcodes are added to your markdown content and spice up your pages
-- Row is the most powerful shortcode, allowing vertical alignment and horizontal division of content in columns (whereas plain markdown is strictly vertical)
 
 <br>
 
-{% row(style="moderate") %}
+<br>
 
-### Structure of the content directory
 
-Every index.md file in a content directory corresponds to a page, and the landing page is content/\_index.md.
-The path of each page is simply its path relavant to the root of the content directory.
+{% row(margin="header" padding="both") %}
 
-Ex:
-content/\_index.md -> yoururl.com/
-content/blog/\_index.md -> yoururl.com/blog
-content/careers/index.md or content/careers.md -> yoururl.com/careers
+# Title
+
+My trunk is an idea that a good friend and I had a long time ago. This was at the start of the whole .com boom where everyone that had an idea got millions to execute on it. Many of these initial ideas failed, some of them became the monopolies of today, Google, Facebook and Amazon. We never launched the mytrunk.com domain and this site is an ode to that lost opportunity in which I organize my daily online life.
+
+<button>[Like!](/)</button>
 
 |||
 
-### Image sizing with source paths
-
-You can size your markdown images by adding #small, #medium or #large at the end of the images source url.
-See /content/\_index.md for implementation.
+![placeholder](placeholder.jpg#mx-auto)
 
 {% end %}
+
+<!-- section 2  -->
+
+{% row(style="center" margin="wide" padding="both") %}
+
+![Lorem](placeholder.jpg#medium)
+
+### **SECTION 2.1**
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
+|||
+
+![Lorem](placeholder.jpg#medium)
+
+### **SECTION 2.2**
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
+|||
+
+![Lorem](placeholder.jpg#medium)
+
+### **SECTION 2.3**
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+
+{% end %}
+
+<br>
+<br>
+
+<!-- section 3 -->
+
+{% row(style="center" margin="wide" padding="both") %}
+
+![Image](placeholder.jpg)
+
+|||
+
+## SECTION # <br /> HERE
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, aliquid ab blanditiis omnis odio repellat?
+
+<button>[BUTTON](/)</button>
+
+{% end %}
+
+<!-- section 4 -->
+
+{% row(style="" margin="wide" padding="top") %}
+
+![Image](placeholder.jpg#sm#mx-auto)
+
+|||
+
+### **SECTION 4.1**
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quas, aliquid ab blanditiis omnis odio repellat?
+
+|||
+
+![Image](placeholder.jpg#sm#mx-auto)
+
+|||
+
+### **SECTION 4.2**
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quas, aliquid ab blanditiis omnis odio repellat?
+
+{% end %}
+
+<!-- section 4-2-->
+
+{% row(style="" margin="wide" padding="bottom") %}
+
+![Image](placeholder.jpg#sm#mx-auto)
+
+|||
+
+### **SECTION 4.3**
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quas, aliquid ab blanditiis omnis odio repellat?
+
+|||
+
+![Image](placeholder.jpg#sm#mx-auto)
+
+|||
+
+### **SECTION 4.5**
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quas, aliquid ab blanditiis omnis odio repellat?
+
+{% end %}
+
+
+
+<!-- section 5 -->
+
+{% row(style="center" margin="wide" padding="both") %}
+
+## SECTION 5 <br /> HEADER
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quas, aliquid ab blanditiis omnis odio repellat?
+
+|||
+
+![Image](placeholder.jpg)
+
+{% end %}
+
+<!-- section 6 -->
+
+{% row(style="center" margin="wide" padding="top") %}
+
+## SECTION 6
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit
+
+<button>[BUTTON](/)</button>
+
+{% end %}
+
+{% row(margin="wide" padding="bottom") %}
+
+    ![Image](placeholder.jpg#medium#mx-auto)
+
+{% end %}
+
+</div>
