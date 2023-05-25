@@ -17,7 +17,7 @@ weight: 1
 <br>
 
 
-{% row(margin="header" padding="both") %}
+{% row(margin="header" padding="bottom") %}
 
 # Title
 
@@ -84,7 +84,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, aliquid ab bland
 
 {% row(style="" margin="wide" padding="top") %}
 
-![Image](placeholder.jpg#sm#mx-auto)
+![Image](placeholder.jpg#mx-auto)
 
 |||
 
@@ -94,7 +94,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quas, aliquid ab blandi
 
 |||
 
-![Image](placeholder.jpg#sm#mx-auto)
+![Image](placeholder.jpg#mx-auto)
 
 |||
 
@@ -108,7 +108,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quas, aliquid ab blandi
 
 {% row(style="" margin="wide" padding="bottom") %}
 
-![Image](placeholder.jpg#sm#mx-auto)
+![Image](placeholder.jpg#mx-auto)
 
 |||
 
@@ -118,7 +118,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quas, aliquid ab blandi
 
 |||
 
-![Image](placeholder.jpg#sm#mx-auto)
+![Image](placeholder.jpg#mx-auto)
 
 |||
 

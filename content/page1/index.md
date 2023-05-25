@@ -11,7 +11,7 @@ weight: 2
 
 <!-- section 1 (co-found) -->
 
-{% row(style="center" margin="header" padding="both") %}
+{% row(style="center" margin="header" padding="bottom") %}
 
 # TITLE {#text-8xl}
 

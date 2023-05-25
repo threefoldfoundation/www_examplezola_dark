@@ -15,7 +15,7 @@ weight: 2
 
 
 
-{% row(style="center" margin="header" padding="both") %}
+{% row(style="center" margin="header" padding="bottom") %}
 
 ## SECTION 
 

@@ -92,7 +92,7 @@ img[src*="#fig"] {
 
 @layer components {
   h1 {
-    @apply text-3xl lg:text-5xl xl:text-7xl font-bold leading-none my-4;
+    @apply text-3xl lg:text-5xl xl:text-6xl font-bold leading-none my-4;
     font-family: "Alegreya", sans-serif;
     line-height: 0.9;
     
@@ -101,7 +101,7 @@ img[src*="#fig"] {
     @apply font-medium;
   }
   h2 {
-    @apply text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-bold leading-none my-4;
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold leading-none my-4;
     font-family: "Alegreya", sans-serif;
     line-height: 0.9;
     
